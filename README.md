@@ -8,7 +8,7 @@ This project is the result of the second assignment of the **Paktolus** applicat
 > 3.  Implement custom strategy which uses JWT from first step to authorize user
 > 4.  User data (email, name) is inside JWT, display this data in response to request
 
-**Scopes needed** - Google OAuth2 API v2  
+**Necessary Scopes** - Google OAuth2 API v2  
 - https://www.googleapis.com/auth/userinfo.email
 - https://www.googleapis.com/auth/userinfo.profile
 
@@ -27,12 +27,8 @@ $ npm run start
 ```
 ## Test
 ```bash
-# unit tests
-$ npm run test
 # e2e tests
 $ npm run test:e2e
-# test coverage
-$ npm run test:cov
 ```
 
  Author - **Jorge Requena** - requenajorge1995@gmail.com
